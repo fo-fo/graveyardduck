@@ -1,0 +1,6 @@
+GraveyardDuck handles the 0x80 special control code correctly in decompression, but does not
+make use of it when recompressing.
+
+This control byte is only used when the compressor encounters a full 256 bytes in which no RLE
+compression is possible. Because this is highly unlikely, I am not very motivated to add
+support for this condition.
