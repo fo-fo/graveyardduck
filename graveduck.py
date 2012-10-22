@@ -10,7 +10,7 @@ It also works on Ai Senshi Nicol, and possibly other Konami games.
 Version:   1.3
 Author:    Derrick Sobodash <derrick@sobodash.com>
 Copyright: (c) 2012 Derrick Sobodash
-Web site:  http://derrick.sobodash.com/
+Web site:  https://github.com/sobodash/graveyardduck/
 License:   BSD License <http://opensource.org/licenses/bsd-license.php>
 '''
 
