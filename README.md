@@ -35,16 +35,16 @@ Assuming the parameters:
 
 ### Decompression ###
 
-> graveduck.py -d [FILENAME] [POSITION] [BLOCK]
+`graveduck.py -d [FILENAME] [POSITION] [BLOCK]`
 
 ### Compression ###
 
-> graveduck.py -c [FILENAME] [POSITION] [BLOCK]
+`graveduck.py -c [FILENAME] [POSITION] [BLOCK]`
 
 
 ## Authors ##
 
-** Derrick Sobodash **
+**Derrick Sobodash**
 
 * <http://derrick.sobodash.com/>
 * <https://twitter.com/sobodash/>
