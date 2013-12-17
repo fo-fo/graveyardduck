@@ -44,7 +44,7 @@ except ImportError, err:
 	print "Could not load %s module." % (err)
 	raise SystemExit
 
-print "GraveyardDuck 1.3 (cli)\nCopyright (c) 2012 Derrick Sobodash\n"
+print "GraveyardDuck 1.3 (cli)\nCopyright (c) 2012, 2013 Derrick Sobodash\n"
 
 '''
 konamidec():
