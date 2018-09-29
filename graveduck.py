@@ -172,7 +172,7 @@ if len(sys.argv) == 5:
 	if sys.argv[1] == "-d":
 		decomp = konamidec(file, offset)
 		print "[Expanded " + str(len(decomp)) + "b from " + file + "]"
-		o = open(block, "w")
+		o = open(block, "wb")
 		print "Writing to " + block + " ..."
 		o.write(decomp)
 		o.close()
@@ -181,7 +181,7 @@ if len(sys.argv) == 5:
 		comp = konamicod(block)
 		print "[Compressed " + str(os.stat(block)[ST_SIZE]) + "b to " + str(len(comp)) + "b]"
 		print "Opening " + file + " ..."
-		o = open(file, "r+w")
+		o = open(file, "r+b")
 		o.seek(offset)
 		print "[Seeked to " + str(offset) + "]"
 		print "Inserting data ..."
